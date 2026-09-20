@@ -1,0 +1,2 @@
+import React from "react";import {Link} from "react-router-dom";import Icon from "../components/Icon";
+export default function NotFound(){return <section className="empty-state not-found"><div className="not-found-number">404</div><span className="eyebrow">PAGE NOT FOUND</span><h1>That page doesn't exist.</h1><p>The link may be outdated or the page may have moved.</p><Link className="btn btn-primary" to="/tasks">Go to workspace <Icon name="arrow" size={16}/></Link></section>}
